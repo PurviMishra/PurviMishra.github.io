@@ -1,0 +1,369 @@
+
+body{
+    background-color: #f1e2d7;
+}
+ul{
+    margin: 0px;
+    padding-top: 5px;
+    list-style:none;
+    height: 10%;
+    font-size: 13px;
+}
+li{ 
+    float: left;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:600px;
+    text-transform: uppercase;
+    ;
+}
+.navi{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color:black	;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: smaller;
+    
+}
+.navi:hover{
+    background-color:#FFE4B5;
+
+}
+#nav{
+     margin: 0px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    height: 30%;
+}
+#d2{  
+    box-sizing: border-box;
+    float: left; 
+    width: 50%;
+    height: 30%;
+
+
+}
+ #im{ 
+     
+    height:100%;
+    width:100%;
+    
+
+}
+#ff
+{ 
+    height: 40%;;
+    width:fit-content;
+    /* border:1px solid black; */
+    overflow: auto;
+
+}
+#h2i{ color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 6px;
+    text-align: left;
+}
+#h1i{ color:black;
+    font-size: 35px;
+    text-align:left;
+    /* padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%; */
+    /* border:1px solid black */
+    }
+#p1{color: #000000;
+    text-align:left;
+    font-family: 'Trispace', sans-serif;
+    font-size: large;
+    /* padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%; */
+    /* border:1px solid black; */
+    margin:0px;
+    text-align: left;
+
+}
+#but{
+    font-size:large;
+    display:inline-block;
+    text-decoration: none;
+    width:fit-content;
+    height:fit-content;
+    border: 1px solid black;
+    border-radius:20px;
+    text-align: center;
+    padding:10px;
+    background-color:black;
+    color:white;
+    text-transform: uppercase;
+}
+#dd{
+    height:17.5%;
+   
+    /* border:1px solid black; */
+    overflow:hidden; 
+    height: 17.5%;
+    
+}
+#d3{
+     /* border:1px solid black;  */
+    float: left; 
+    width:50%;
+    padding-left:20px;
+    padding-right:50px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color:white;
+    height:100%;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    overflow: auto;
+
+}
+#d4{ 
+    box-sizing: border-box;
+     /* border:1px solid black;  */
+   float: right;
+   display: flex;
+   margin: 0px; 
+   padding-bottom: 0px;
+   width: 50%;
+   height:100%;
+}  
+
+.child1 {
+    flex: 1;
+    /* border: 2px solid black; */
+}  
+#d4i{
+    box-sizing: border-box;
+}
+#im2{ 
+
+    width: 110%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+#d4ii{
+    background-color:#E3AE57;
+    padding:30px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.hh{
+    font-size: 40px;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+#hh1{
+    color:#E3AE57;
+    margin-top:0;
+    padding-top:0;
+    font-size: 20px;
+}
+.l2{
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+}
+#myskills{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5px;
+    font-size: 40px;
+    overflow: auto;
+}
+progress {
+    -webkit-appearance: none;
+ }
+ progress::-webkit-progress-bar-value {
+   -webkit-appearance: none;
+   background: orangered;
+ }
+ progress {
+    border: none;
+    width: 300px;
+    height:5px;
+    border-radius: 2px;
+    background: crimson;
+  }
+  
+  progress {
+    color: lightblue;
+  }
+  
+  progress::-webkit-progress-value {
+    background: lightblue;
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightcolor;
+  }
+  
+  progress::-webkit-progress-value {
+    background: black;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: rgb(255, 255, 255);
+  }
+
+#d5{
+    float: left;
+    display:block;
+    box-sizing: border-box;
+    width: 50%;
+    height:17.5%;
+}
+#d5i
+    { float: left;
+      background-color:#E3AE57;
+      width: 50%;
+      box-sizing: border-box;
+      height:300px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 600;
+      overflow: auto;
+  }
+#d5ii
+ {    float:right;
+      background-color:#e9724c;
+      width:50%;
+      box-sizing: border-box;
+      height:300px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 600;
+      overflow: auto;
+  }
+#d6{
+    float: right;
+    width: 50%;
+    display:block;
+    box-sizing: border-box;
+    height:17.5%; 
+    
+    
+}
+#d6i{
+    float: left;
+    width: 50%;
+    background-color:black;
+    box-sizing: border-box;
+    height:300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    overflow: auto;
+}
+#d6ii{
+    float: right;
+    width: 50%;
+    background-color:white;
+    box-sizing:border-box;
+    height:300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    overflow: auto;
+}
+.im3{
+    height: 100px;
+    width: 100px;
+}
+.color-white{
+    color: white;
+}
+#d7{
+    float: left;
+    display:block;
+    box-sizing: border-box;
+    height:17.5%;
+    width: 100%;
+}
+#d7i{
+    overflow: auto;
+    float: left;
+    width: 50%;
+    background-color:black;
+    box-sizing: border-box;
+    height:350px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+#d7ii{
+    
+    background-color: black;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    height:350px;
+    padding-bottom: 50px;
+}
+#im4{
+    width:100%;
+    height:100%;
+}
+/* #d8{
+    box-sizing: border-box;
+    height: 250px;
+    width: 500px;
+   
+    /* background-image:url("https://image.freepik.com/free-photo/man-working-with-laptop_385-19323865.jpg")
+    background-repeat:no-repeat;*/
+footer{
+    box-sizing:border-box;
+    padding-top:20px ;
+    padding-left:20px;
+    /* border: 1px solid black; */
+    text-align:left;
+    
+    background-color: white;
+}
+
+
+
+#fh1{
+   
+    letter-spacing: 5px;
+    font-weight: 300;
+    font-size: x-large;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+    color:gray;
+    
+}
+.noDecoration,a:hover{
+    color: black;
+}
