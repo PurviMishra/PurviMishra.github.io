@@ -62,7 +62,7 @@ li{
 }
 #ff
 { 
-    height: 40%;;
+    height: 30%;;
     width:fit-content;
     /* border:1px solid black; */
     overflow: auto;
@@ -115,7 +115,7 @@ li{
    
     /* border:1px solid black; */
     overflow:hidden; 
-    height: 17.5%;
+    height: 10%;
     
 }
 #d3{
@@ -230,7 +230,7 @@ progress {
     display:block;
     box-sizing: border-box;
     width: 50%;
-    height:17.5%;
+    height:10%;
 }
 #d5i
     { float: left;
@@ -263,7 +263,7 @@ progress {
     width: 50%;
     display:block;
     box-sizing: border-box;
-    height:17.5%; 
+    height:10%; 
     
     
 }
@@ -305,7 +305,7 @@ progress {
     float: left;
     display:block;
     box-sizing: border-box;
-    height:17.5%;
+    height:10%;
     width: 100%;
 }
 #d7i{
@@ -344,14 +344,16 @@ progress {
    
     /* background-image:url("https://image.freepik.com/free-photo/man-working-with-laptop_385-19323865.jpg")
     background-repeat:no-repeat;*/
+
+
 footer{
-    box-sizing:border-box;
-    padding-top:20px ;
-    padding-left:20px;
-    /* border: 1px solid black; */
-    text-align:left;
-    
-    background-color: white;
+box-sizing:border-box;
+padding-top:20px;
+padding-left:20px;
+/* border: 1px solid black; */
+text-align:left;
+height: 10%;  
+background-color: white;
 }
 
 
@@ -372,4 +374,10 @@ footer{
 }
 .noDecoration,a:hover{
     color: black;
+}
+#Achieve{
+height:10%;
+width:100%;
+border:1px soild black;
+background-image: url("Images/Achievement.jpg");
 }
