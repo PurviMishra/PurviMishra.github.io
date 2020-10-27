@@ -428,6 +428,7 @@ footer a{
     line-height: 10vh;
     position: relative;
     left: 19.5vw; 
+    padding-left: 5vw;
 }
  #achead{
     text-align: center;
@@ -435,4 +436,6 @@ footer a{
 } 
 #list2{
     font-size: 2vw;
+    list-style-image:url("../Images/trophy-24.png");
+        
 } 
