@@ -17,7 +17,7 @@ ul{
     height: 10%;
     font-size: 13px;
 }
-li{ 
+.list1{ 
     float: left;
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -331,8 +331,9 @@ progress {
 #d7{
     display:block;
     box-sizing: border-box;
-    height:24vw;
+    height:25vw;
     width: 100%;
+    margin-bottom: 0vw;
 }
 #d7i{
     overflow: auto;
@@ -408,8 +409,30 @@ footer a{
     color: black;
 }
 #Achieve{
+    margin-top:0;
     width:100%;
-    border:1px soild black;
+    height: 30vw;
+    /* border:1px soild black; */
     background-image: url("../Images/Achievement.jpg");
     display: block;
+    background-repeat:no repeat;
+    background-size:cover;
+    background-position: center center;
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+#arch1{
+    width:31%;
+    height: 30vw;
+    background-color:#f1e2d7;
+    opacity: 0.65;
+    line-height: 10vh;
+    position: relative;
+    left: 19.5vw; 
 }
+ #achead{
+    text-align: center;
+    box-sizing:border-box;
+} 
+#list2{
+    font-size: 2vw;
+} 
