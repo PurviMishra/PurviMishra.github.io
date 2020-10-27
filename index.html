@@ -2,30 +2,33 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
         <!--Favicon-->
         <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href=Favicon"/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
         <link rel="manifest" href="Favicon/site.webmanifest">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
     </head>
     <body>
-        <div id="ff">
+        
+        <div id="ff" class="Home">
             <div><nav>
             <div id="nav">
               <ul>
-                <li><a class="navi" href="#ff" > Home</a></li>
-                <li><a class="navi" href="#d3" > About me </a></li>
-                <li><a class="navi" href="#d5" > Skills </a></li>
-                <li><a class="navi" href="#d7" > Education </a></li>
-                <li><a class="navi" href="#fh1" >Contact Me</a></li>
+                <li class="active" ><a id="Home" onclick="scrollToSection(this)" class="navi" href="#" > Home</a></li>
+                <li><a id="Aboutme" onclick="scrollToSection(this)" class="navi" href="#" > About me </a></li>
+                <li><a id="Skillssection" onclick="scrollToSection(this)" class="navi" href="#" > Skills </a></li>
+                <li><a id="Educationsection" onclick="scrollToSection(this)" class="navi" href="#" > Education </a></li>
+                <li><a id="Contactme" onclick="scrollToSection(this)" class="navi" href="#" >Contact Me</a></li>
                 
               </ul>
               <br>
@@ -44,7 +47,7 @@
               <img id="im" src="Images/img2.jpg" >   
             </div>
         </div>
-        <div id="dd">
+        <div id="dd" class="Aboutme">
             
            <div id="d3" class="child">
              <h1 class="hh">About me</h1>
@@ -70,7 +73,7 @@
               </div>
            </div>
         </div>
-        <div id="d5">
+        <div id="d5" class="Skillssection">
           <div id="d5i">
             <h3 class="color-white">C++</h3>
             <img src="Images/Cpp.png" class="im3" alt="C++">
@@ -94,7 +97,7 @@
             <p>I do have knowledge of basic syntax of CSS and I plan to enhance it more in the future.</p>
           </div>
         </div>
-        <div id="d7">
+        <div id="d7" class="Educationsection">
           <div id="d7i">
             <h1 class="hh">My Education</h1>
             <p>I did my Schooling from New Digamber Public School,Indore</p>
@@ -109,7 +112,7 @@
         <!-- <div id="d8">
         Thanlyou for visiting my website
         </div> -->
-      <footer id="foot">
+      <footer id="foot" class="Contactme">
         <br>
         <h1 id="fh1">Contact me</h1>
       

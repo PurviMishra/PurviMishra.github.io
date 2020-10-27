@@ -5,6 +5,9 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.active>a{
+    font-weight: 800;
+}
 ul{
     margin: 0px;
     padding-top: 5px;
