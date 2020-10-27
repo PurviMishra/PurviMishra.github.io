@@ -21,32 +21,33 @@
     <body>
         
         <div id="ff" class="Home">
-            <div><nav>
-            <div id="nav">
-              <ul>
-                <li class="active" ><a id="Home" onclick="scrollToSection(this)" class="navi" href="#" > Home</a></li>
-                <li><a id="Aboutme" onclick="scrollToSection(this)" class="navi" href="#" > About me </a></li>
-                <li><a id="Skillssection" onclick="scrollToSection(this)" class="navi" href="#" > Skills </a></li>
-                <li><a id="Educationsection" onclick="scrollToSection(this)" class="navi" href="#" > Education </a></li>
-                <li><a id="Contactme" onclick="scrollToSection(this)" class="navi" href="#" >Contact Me</a></li>
-                
-              </ul>
-              <br>
-              <br>
-              <h2 id="h2i" >welcome to my website</h2>
-              <h1 id="h1i" >Hello, I am <strong>Purvi</strong> currently based in Indore.</h1>
-              <p id="p1">I am a student and I'm currently pursuing B.Tech from Medicaps University,Rau,Indore and this is my portfolio website.Hope you like it!!</p>
-              <br>
-              <br>
-              <br>
-              <a href="#d3" id="but" > Let's Start</a>
-                              
+            <div id="homecont1" class="homecontainers">
+              <div id="homeimg">
+                <img id="im" src="Images/img2.jpg" >   
+              </div>
             </div>
-            </nav></div>
-            <div id="d2">
-              <img id="im" src="Images/img2.jpg" >   
+
+            <div id="homecont2" class="homecontainers">
+              <div id="homecont21">
+                <ul>
+                  <li class="active" ><a id="Home" onclick="scrollToSection(this)" class="navi" href="#" > Home</a></li>
+                  <li><a id="Aboutme" onclick="scrollToSection(this)" class="navi" href="#" > About me </a></li>
+                  <li><a id="Skillssection" onclick="scrollToSection(this)" class="navi" href="#" > Skills </a></li>
+                  <li><a id="Educationsection" onclick="scrollToSection(this)" class="navi" href="#" > Education </a></li>
+                  <li><a id="Contactme" onclick="scrollToSection(this)" class="navi" href="#" >Contact Me</a></li>
+                </ul>
+              </div>
+
+              <div id="homecont22">
+                <h2 id="h2i" >welcome to my website</h2>
+                <h1 id="h1i" >Hello, I am <strong>Purvi</strong> currently based in Indore.</h1>
+                <p id="p1">I am a student and I'm currently pursuing B.Tech from Medicaps University,Rau,Indore and this is my portfolio website.Hope you like it!!</p>
+                <a href="#d3" id="but" > Let's Start</a>
+              </div>
             </div>
         </div>
+
+
         <div id="dd" class="Aboutme">
             
            <div id="d3" class="child">
@@ -55,46 +56,51 @@
              <p>I am a 19 year old student who lives in Indore,Madhya Pradesh.I am a bit of an introvert but a very patient,calm,creative and reliable person.</p>
              <p>I like to dance,listen to songs and play tabble tennis for fun </p>
            </div>
+
            <div id="d4" class="child">
              <div id="d4i" class="child1">
                <img id="im2"src="Images/Image2.png">
              </div>
              <div id="d4ii" class="child1">
+              <div> 
                <h1 id="myskills">My skills</h1>
                <p class="l2">C++,CSS,HTML,Python</p>
                <label for="file">C++: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  90%</label>
                <progress id="file" value="90" max="100"> 90% </progress>
                <label for="file1">Python: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 70%</label>
-               <progress id="file1" value="70" max="100"> 70% </progress>
+               <progress id="file1" value="70" max="100"> 70% </progress><br>
                <label for="file2">HTML: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  80%</label>
-               <progress id="file2" value="80" max="100"> 80% </progress>
+               <progress id="file2" value="80" max="100"> 80% </progress><br>
                <label for="file3">CSS: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  60%</label>
                <progress id="file3" value="60" max="100"> 60% </progress>
               </div>
+              </div>
            </div>
         </div>
-        <div id="d5" class="Skillssection">
-          <div id="d5i">
-            <h3 class="color-white">C++</h3>
-            <img src="Images/Cpp.png" class="im3" alt="C++">
-            <p class="color-white">I have been programming through C++ for last 3 years and I'm currently doing competetive programming through it.</p>
+        <div class="Skillssection">
+          <div id="d5" class="Skillssection">
+            <div id="d5i">
+              <h3 class="color-white">C++</h3>
+              <img src="Images/Cpp.png" class="im3" alt="C++">
+              <p class="color-white">I have been programming through C++ for last 3 years and I'm currently doing competetive programming through it.</p>
+            </div>
+            <div id="d5ii">
+              <h3 class="color-white">Python</h3>
+              <img src="Images/Python.png" class="im3" alt="Python">
+              <p class="color-white">I have sufficient basic knowledge of Python and I have also written some difficult codeing with the help of it.</p>
+            </div>
           </div>
-          <div id="d5ii">
-            <h3 class="color-white">Python</h3>
-            <img src="Images/Python.png" class="im3" alt="Python">
-            <p class="color-white">I have sufficient basic knowledge of Python and I have also written some difficult codeing with the help of it.</p>
-          </div>
-        </div>
-        <div id="d6">
-          <div id="d6i">
-            <h3 class="color-white">HTML</h3>
-            <img src="Images/Html.png" class="im3" alt="HTML">
-            <p class="color-white">I do have sufficient knowledge of HTML and I can create basic websites using it.</p>
-          </div>
-          <div id="d6ii">
-            <h3> CSS</h3>
-            <img src="Images/css.png" class="im3" alt="CSS">
-            <p>I do have knowledge of basic syntax of CSS and I plan to enhance it more in the future.</p>
+          <div id="d6">
+            <div id="d6i">
+              <h3 class="color-white">HTML</h3>
+              <img src="Images/Html.png" class="im3" alt="HTML">
+              <p class="color-white">I do have sufficient knowledge of HTML and I can create basic websites using it.</p>
+            </div>
+            <div id="d6ii">
+              <h3> CSS</h3>
+              <img src="Images/css.png" class="im3" alt="CSS">
+              <p>I do have knowledge of basic syntax of CSS and I plan to enhance it more in the future.</p>
+            </div>
           </div>
         </div>
         <div id="d7" class="Educationsection">
@@ -118,13 +124,11 @@
         <br>
         <h1 id="fh1">Contact me</h1>
       
-        <a href="mailto:purvimish8july@gmail.com" target="_blank"><img src="Images/Email.png" alt="mail" class="noDecoration">&nbsp &nbsp purvimish8july@gmail.com</a>
-        <br>
-        <a href="https://www.instagram.com/purvi_mishra/" target="_blank"><img src="Images/Instagram.png" alt="instagram" class="noDecoration">&nbsp @purvi_mishra</a>
-        <br>
-        <a href=" https://www.linkedin.com/in/purvi-mishra-059582136/" target="_blank"><img src="Images/Linkedin.png" alt="linkedin"class="noDecoration" >&nbsp @Purvi Mishra</a>
-        <br>
-        <a href="https://www.facebook.com/purvi.mishra.948" target="_blank"><img src="Images/Facebook.png" alt="Facebook" class="noDecoration"> &nbsp @purvi.mishra</a>
+        <a href="mailto:purvimish8july@gmail.com" target="_blank"><img src="Images/Email.png" alt="mail" class="noDecoration"></a>
+        
+        <a href="https://www.instagram.com/purvi_mishra/" target="_blank"><img src="Images/Instagram.png" alt="instagram" class="noDecoration"></a>
+        <a href=" https://www.linkedin.com/in/purvi-mishra-059582136/" target="_blank"><img src="Images/Linkedin.png" alt="linkedin"class="noDecoration" ></a>
+        <a href="https://www.facebook.com/purvi.mishra.948" target="_blank"><img src="Images/Facebook.png" alt="Facebook" class="noDecoration"></a>
       </footer>
     </body>
 </html>
